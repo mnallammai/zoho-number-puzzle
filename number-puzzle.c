@@ -17,7 +17,7 @@ void printInstructions() {
 }
 
 void printSquareBoard(int size, int play_square[size][size],
-                      int keypress) { //Its enough to display play square alone to user hence it is passed as parameter
+                      int keypress) { 
     system(CLEAR_CMD);
     printInstructions();
     for (int i = 0; i < size; i++) {
